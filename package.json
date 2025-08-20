@@ -1,0 +1,35 @@
+{
+  "name": "@drafflatus/ajs",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drAfflatus/ajs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drAfflatus/ajs/issues"
+  },
+  "homepage": "https://github.com/drAfflatus/ajs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
+  },
+  "description": "",
+  "dependencies": {
+    "@drafflatus/ajs": "^1.0.0"
+  }
+}
